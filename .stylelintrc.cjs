@@ -2,6 +2,7 @@
 module.exports = {
   extends: ["stylelint-config-standard-scss", "stylelint-config-recess-order", "stylelint-config-html/astro"],
   rules: {
+    "alpha-value-notation": "number",
     "block-no-empty": null,
     "no-descending-specificity": null,
     "selector-class-pattern": null,
